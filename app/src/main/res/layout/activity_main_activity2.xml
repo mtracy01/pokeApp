@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/container"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context="com.example.matthew.pokeapp.MainActivity2" tools:ignore="MergeRootFrame">
+    <fragment android:name="com.example.matthew.pokeapp.MainActivity2$PlaceholderFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/adFragment"
+        android:id="@+id/adView" />
+
+    <fragment
+        android:id="@+id/adFragment"
+        android:name="com.example.matthew.pokeapp.MainActivity2$PlaceholderFragment$AdFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hand"
+        android:id="@+id/pokeButton"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
