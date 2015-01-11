@@ -1,24 +1,16 @@
-package com.example.matthew.pokeapp;
+package com.pokeapp1.matthew.pokeapp;
 
 import android.app.Activity;
-import android.app.ActionBar;
 import android.app.Fragment;
-import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.os.Build;
-import android.view.animation.Animation;
-import android.widget.Button;
 import android.widget.ImageButton;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
-import android.widget.AdapterView;
-import com.google.android.gms.*;
-
 
 
 public class MainActivity2 extends Activity {

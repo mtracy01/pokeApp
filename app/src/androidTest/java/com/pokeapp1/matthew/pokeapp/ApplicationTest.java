@@ -1,4 +1,4 @@
-package com.example.matthew.pokeapp;
+package com.pokeapp1.matthew.pokeapp;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
