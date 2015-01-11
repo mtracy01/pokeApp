@@ -42,7 +42,7 @@ public class MainActivity2 extends Activity {
                 catch(Exception e){}
                 Runnable endAction = new Runnable(){
                     public void run(){
-                        view.animate().translationYBy(500);
+                        view.animate().y(450);
                     }
                 };
                 //view.animate().setDuration(1000);
